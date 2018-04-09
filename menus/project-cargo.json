@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "New Project",
+      "submenu": [
+        {
+          "label": "Rust",
+          "submenu": [
+            {
+              "label": "Cargo",
+              "command": "project-cargo:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

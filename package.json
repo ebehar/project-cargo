@@ -1,0 +1,20 @@
+{
+  "name": "project-cargo",
+  "main": "./lib/project-cargo",
+  "version": "0.0.0",
+  "description": "Project management for Rust Cargo packages",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "project-cargo:create"
+  },
+  "repository": "https://github.com/atom/project-cargo",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "npm": "^5.8.0",
+    "smalltalk": "^2.5.1"
+  }
+}
